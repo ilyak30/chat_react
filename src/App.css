@@ -11,6 +11,12 @@
   grid-gap: 10px;
 }
 
+.app-wraper-content {
+  grid-area: c;
+  background-color: rgb(99, 133, 65);
+  /* padding: 10px; */
+}
+
 .App {
   text-align: center;
 }
@@ -23,6 +29,8 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
